@@ -403,7 +403,7 @@ export default function BookingPortal({ selectedProgramId, onResetSelectedProgra
                       SESSION RESERVED SUCCESSFULLY!
                     </h3>
                     <p className="text-sm text-gray-400 max-w-lg mx-auto leading-relaxed">
-                      Your workout slot is secured in our system list under **D3 Fitness**. Please display this entry ticket below at the reception desk to begin.
+                      Your workout slot is secured in our system list under <strong className="font-bold text-white">D3 Fitness</strong>. Please display this entry ticket below at the reception desk to begin.
                     </p>
                   </div>
 

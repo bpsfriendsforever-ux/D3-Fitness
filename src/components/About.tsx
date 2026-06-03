@@ -82,7 +82,7 @@ export default function About() {
                 <span className="text-orange-brand">IRON SANCTUARY</span>
               </h2>
               <p className="text-gray-400 leading-relaxed font-light">
-                Located at **WZ-80A, 2nd floor Pankha Road, Gali Number 5, near Neelgagan Hotel**, D3 Fitness is a sprawling, high-performance strength facility designed for those who take their physical self-improvement seriously. Our goal is to bypass the typical commercial gym fluff and supply standard heavy machinery, elite compound setup bays, and highly scientific coaching.
+                Located at <strong className="font-bold text-white">WZ-80A, 2nd floor Pankha Road, Gali Number 5, near Neelgagan Hotel</strong>, D3 Fitness is a sprawling, high-performance strength facility designed for those who take their physical self-improvement seriously. Our goal is to bypass the typical commercial gym fluff and supply standard heavy machinery, elite compound setup bay, and highly scientific coaching.
               </p>
             </div>
 
