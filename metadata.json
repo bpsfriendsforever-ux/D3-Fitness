@@ -1,0 +1,6 @@
+{
+  "name": "D3 Fitness",
+  "description": "A premium dark-themed website with high-contrast orange accents for D3 Fitness gym in New Delhi, featuring an interactive booking portal for training sessions, dynamic facilities gallery, and interactive maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

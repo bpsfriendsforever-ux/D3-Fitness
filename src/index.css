@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-orange-brand: #FF6B00;
+  --color-orange-light: #FF8c39;
+  --color-orange-dark: #cc5600;
+  --color-gym-black: #050505;
+  --color-gym-dark: #111111;
+  --color-gym-gray: #161616;
+  --color-gym-card: #1c1c1c;
+  --color-gym-muted: #888888;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-gym-black);
+    color: #ffffff;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+  }
+
+  /* Custom high-impact selection */
+  ::selection {
+    background-color: var(--color-orange-brand);
+    color: #0c0c0c;
+  }
+}
+
+/* Custom scrollbars matching orange dynamic theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-gym-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gym-gray);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-orange-brand);
+}
+
+/* Interactive elements */
+.orange-glow {
+  text-shadow: 0 0 15px rgba(255, 107, 0, 0.45);
+}
+
+.box-orange-glow {
+  box-shadow: 0 0 30px rgba(255, 107, 0, 0.15);
+}
+
+.box-orange-glow-sm {
+  box-shadow: 0 0 15px rgba(255, 107, 0, 0.08);
+}
+
+.border-glow:hover {
+  border-color: rgba(255, 107, 0, 0.6);
+  box-shadow: 0 0 20px rgba(255, 107, 0, 0.1);
+}
