@@ -116,6 +116,16 @@ export const PROGRAMS: Program[] = [
     category: 'Yoga',
     caloriesBurn: '200 - 300 kcal',
     icon: 'Sparkles'
+  },
+  {
+    id: 'p6',
+    title: 'Heavy Duty Power Progressions',
+    description: 'A focused strength pathway targeting absolute mechanics for squat, bench, and deadlifts. Perfect your heavy lifting technique under skilled coaches.',
+    duration: '60 mins',
+    intensity: 'Advanced',
+    category: 'Strength',
+    caloriesBurn: '500 - 650 kcal',
+    icon: 'Dumbbell'
   }
 ];
 
@@ -143,10 +153,10 @@ export const GALLERY: FacilityImage[] = [
   },
   {
     id: 'g4',
-    title: 'Full Range Dumbbell Arena',
+    title: 'Heavy Cable & Lat Station',
     category: 'Heavy Lifting',
-    url: 'https://images.unsplash.com/photo-1626251891368-e26511a620b1?auto=format&fit=crop&w=1000&q=80',
-    description: 'An expansive array of hand-poured premium dumbells ranging from 2.5kg all the way to 50kg, styled with high contrast orange highlights.'
+    url: 'https://images.unsplash.com/photo-1517963879433-6ad2b056d712?auto=format&fit=crop&w=1000&q=80',
+    description: 'Premium dual pulley systems and adjustable weight trees engineered to refine micro-muscle contraction and target upper back structures.'
   },
   {
     id: 'g5',

@@ -115,7 +115,7 @@ export default function Gallery() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 z-50 bg-gym-black/98 viewport-h flex flex-col items-center justify-center p-4"
+              className="fixed inset-0 z-50 bg-gym-black/98 w-screen h-screen flex flex-col items-center justify-center p-4 overflow-y-auto"
               role="dialog"
               aria-modal="true"
             >

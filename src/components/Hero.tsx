@@ -24,7 +24,7 @@ export default function Hero({ onNavigateToBooking, onNavigateToGallery }: HeroP
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-gym-black overflow-hidden pt-16">
       {/* Background Graphic overlay */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(255,102,0,0.12),transparent_55%)] z-10 pointers-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(255,102,0,0.12),transparent_55%)] z-10 pointer-events-none" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(20,20,20,0.85),rgba(12,12,12,0.95))] z-10 pointer-events-none" />
 
       {/* Extreme resolution athletic header image */}
