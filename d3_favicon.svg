@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Premium Dark Textured Background -->
+  <rect width="512" height="512" rx="140" fill="#050505" />
+  
+  <!-- Sleek Radial/Linear Contrast Gradients or Subtle Accents -->
+  <defs>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8C39" />
+      <stop offset="100%" stop-color="#FF6B00" />
+    </linearGradient>
+    <linearGradient id="innerGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FF6B00" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Inner Soft Accent Circle -->
+  <circle cx="256" cy="256" r="230" fill="url(#innerGlow)" opacity="0.5" />
+
+  <!-- Premium Dual Outer Borders -->
+  <rect x="12" y="12" width="488" height="488" rx="128" fill="none" stroke="#FF6B00" stroke-width="12" opacity="0.95" />
+  <rect x="28" y="28" width="456" height="456" rx="112" fill="none" stroke="#161616" stroke-width="6" />
+
+  <!-- Monogram D3, Mathematically Centered & Thick Stencil Sport Style -->
+  <g>
+    <!-- Geometric 'D' -->
+    <path d="M 136 160 H 186 A 96 96 0 0 1 186 352 H 136 Z" 
+          fill="none" 
+          stroke="url(#orangeGrad)" 
+          stroke-width="38" 
+          stroke-linejoin="miter" 
+          stroke-miterlimit="10"
+          stroke-linecap="square" />
+    
+    <!-- Athletic '3' -->
+    <path d="M 306 160 H 376 L 331 256 Q 376 256 376 306 Q 376 352 321 352 H 291" 
+          fill="none" 
+          stroke="url(#orangeGrad)" 
+          stroke-width="38" 
+          stroke-linejoin="miter" 
+          stroke-miterlimit="10"
+          stroke-linecap="square" />
+  </g>
+
+  <!-- Sharp Corner Slash Styling for modern athletic brand aesthetic -->
+  <path d="M 40 40 L 80 40 L 40 80 Z" fill="#FF6B00" opacity="0.8" />
+  <path d="M 472 472 L 432 472 L 472 432 Z" fill="#FF6B00" opacity="0.8" />
+</svg>
