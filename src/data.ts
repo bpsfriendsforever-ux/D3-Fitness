@@ -168,6 +168,20 @@ export const GALLERY: FacilityImage[] = [
     category: 'Amenities',
     url: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1000&q=80',
     description: 'Enjoy empty benches and open training bays during off-peak hours for fully focused, distraction-free strength sessions.'
+  },
+  {
+    id: 'g8',
+    title: 'Heavy Bag & Striking Zone',
+    category: 'Group Workouts',
+    url: 'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1000&q=80',
+    description: 'Heavy bags, boxing gloves, and padded resistance stations supporting powerful high-intensity cardiovascular conditioning.'
+  },
+  {
+    id: 'g9',
+    title: 'Biomechanical Check-in Area',
+    category: 'Amenities',
+    url: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1000&q=80',
+    description: 'A designated personal check-in zone where coaches perform detailed posture, flexibility, and compound movement alignment reviews.'
   }
 ];
 
